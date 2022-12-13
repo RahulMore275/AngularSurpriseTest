@@ -1,0 +1,7 @@
+
+<label>Country</label>
+<select type="text"  formControlName="ddlcountry">
+    <option *ngFor="let item of CountryList" [value]="item.Id">
+        {{item.Name}}
+    </option>
+</select>
